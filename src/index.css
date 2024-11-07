@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text: 11 28 30;
+    --background: 233 244 246;
+    --primary: 39 90 104;
+    --secondary: 208 146 134;
+    --accent: 149 159 60;
+  }
+  .dark {
+    --text: 225 242 244;
+    --background: 9 20 22;
+    --primary: 151 202 216;
+    --secondary: 121 59 47;
+    --accent: 185 195 96;
+  }
+}
+
+@layer base {
+  html {
+    scrollbar-width: thin;
+  }
+}
